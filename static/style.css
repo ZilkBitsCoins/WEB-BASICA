@@ -74,6 +74,12 @@ section {
     padding: 20px;
 }
 
+.carrusel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+}
 
 footer {
     text-align: center;
