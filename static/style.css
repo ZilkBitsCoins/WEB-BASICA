@@ -12,6 +12,10 @@ header {
     padding: 10px 0;
 }
 
+.container li{
+    margin-bottom: 10px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -44,4 +48,10 @@ footer {
     padding: 10px 0;
     background: #333;
     color: #fff;
+}
+
+.container img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
 }

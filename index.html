@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/style.css">
+    <script src="static/script.js" defer></script>
     <title>Página de Aterrizaje</title>
 </head>
 <body>
@@ -24,14 +25,23 @@
         <section id="nosotros">
             <h2>Nosotros</h2>
             <p>Descripción sobre nosotros.</p>
+            <p>Aquí puedes agregar más información sobre tu empresa o proyecto.</p>
+            <div class="container">
+            <img src="files/images/parrot-9990384_640.jpg" alt="Imagen representativa">
+            <img src="files/images/parrot-9990384_640.jpg" alt="Imagen representativa">
+            </div>
         </section>
         <section id="contacto">
             <h2>Contacto</h2>
             <p>Información de contacto.</p>
+            <p>Aquí puedes agregar más detalles para que los usuarios puedan contactarte.</p>
+            <li style="list-style: none;"><a href="https://www.facebook.com/tuusuario">Nuestro Facebook</a></li>
+            <li style="list-style: none;"><a href="https://www.youtube.com/tuusuario">Nuestro YouTube</a></li>
+            <li style="list-style: none;"><a href="https://wa.me/50378787878">Nuestro WhatsApp</a></li>
         </section>
         <section id="registro">
             <h2>Formulario de Registro</h2>
-            <form>
+            <form id="registroForm">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
                 <label for="email">Email:</label>
@@ -41,7 +51,7 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 Mi Empresa</p>
+        <p>&copy; 2026 Mi WebSite.</p>
     </footer>
 </body>
 </html>
