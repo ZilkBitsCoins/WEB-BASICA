@@ -43,15 +43,41 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.container img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.registroForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+
 footer {
     text-align: center;
     padding: 10px 0;
     background: #333;
     color: #fff;
-}
-
-.container img {
-    width: 200px;
-    height: auto;
-    margin-right: 10px;
 }

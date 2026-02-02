@@ -22,14 +22,26 @@
         <section id="inicio">
             <h1>Bienvenido a Nuestra Página</h1>
         </section>
-        <section id="nosotros">
+        <section id="nosotros" style="text-align: center;">
             <h2>Nosotros</h2>
             <p>Descripción sobre nosotros.</p>
             <p>Aquí puedes agregar más información sobre tu empresa o proyecto.</p>
+            <h1 style="text-align: center;">Puntos importantes de tu negocio</h1>
+            <ul class="container">
+                <li style="list-style: none;">Calidad garantizada</li>
+                <li style="list-style: none;">Atención al cliente 24/7</li>
+                <li style="list-style: none;">Precios competitivos</li>
+                <li style="list-style: none;">Entrega rápida</li>
+            </ul>
+
             <div class="container">
+            <h1>Nuestra Galería</h1>
             <img src="files/images/parrot-9990384_640.jpg" alt="Imagen representativa">
             <img src="files/images/parrot-9990384_640.jpg" alt="Imagen representativa">
-            </div>
+            <img src="files/images/parrot-9990384_640.jpg" alt="Imagen representativa">
+            <img src="files/images/parrot-9990384_640.jpg" alt="Imagen representativa">
+            
+        </div>
         </section>
         <section id="contacto">
             <h2>Contacto</h2>
@@ -40,12 +52,14 @@
             <li style="list-style: none;"><a href="https://wa.me/50378787878">Nuestro WhatsApp</a></li>
         </section>
         <section id="registro">
-            <h2>Formulario de Registro</h2>
+            <h2>Formulario de Contacto</h2>
             <form id="registroForm">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" required>
                 <button type="submit">Registrar</button>
             </form>
         </section>
